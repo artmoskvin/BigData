@@ -2,4 +2,4 @@ import sys
 
 for line in sys.stdin:
     data = line.strip().split(',')
-    print '{0}\t{1}'.format(data[2], data[4])
+    print '{0}\t{1}'.format(data[2].strip(), data[4].strip())
